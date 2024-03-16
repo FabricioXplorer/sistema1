@@ -1,0 +1,71 @@
+/* Bonificaciones.css */
+
+.bonificaciones-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .bonificaciones-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .bonificaciones-form {
+    margin-bottom: 20px;
+  }
+  
+  .bonificaciones-form input[type="text"],
+  .bonificaciones-form input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .bonificaciones-form button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .bonificaciones-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bonificaciones-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bonificaciones-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .bonificaciones-item button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .bonificaciones-item button.editar {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .bonificaciones-item button.eliminar {
+    background-color: #dc3545;
+    color: white;
+  }
+  
