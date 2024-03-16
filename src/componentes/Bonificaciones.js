@@ -91,6 +91,7 @@ function Bonificaciones() {
       </ul>
     </div>
   );
+  
 }
 
 export default Bonificaciones;
